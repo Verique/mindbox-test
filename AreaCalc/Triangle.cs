@@ -34,7 +34,7 @@ public sealed class Triangle : IHasArea
     public bool IsRight => _sides[2] * _sides[2] == _sides[1] * _sides[1] + _sides[0] * _sides[0];
 
     /// <summary>
-    /// Area of a circle
+    /// Area of a triangle
     /// </summary>
     public double Area => _areaFunc();
 
